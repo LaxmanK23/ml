@@ -1,0 +1,19 @@
+# Ignore large and binary files
+wiki_from_scratch/data/wiki_qa.jsonl
+wiki_from_scratch/mlm_ckpt/checkpoint-1161/optimizer.pt
+wiki_from_scratch/mlm_ckpt/checkpoint-1161/model.safetensors
+wiki_from_scratch/mlm_ckpt/checkpoint-1161/*.pt
+wiki_from_scratch/mlm_ckpt/*.safetensors
+wiki_from_scratch/mlm_ckpt/*.bin
+wiki_from_scratch/mlm_ckpt/*.json
+wiki_from_scratch/mlm_ckpt/*.txt
+wiki_from_scratch/tok/*.model
+wiki_from_scratch/tok/*.vocab
+wikipedia/wiki.index
+wikipedia/wiki_docs.pkl
+sms_spam_model.pkl
+__pycache__/
+# Ignore files over 100 MB that caused git push to fail
+wiki_from_scratch/data/wiki_qa.jsonl
+wiki_from_scratch/mlm_ckpt/checkpoint-1161/optimizer.pt
+/.venv
