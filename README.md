@@ -20,3 +20,9 @@ This repository contains code and data for machine learning experiments and Wiki
    ```
 
 See subfolder READMEs for more details.
+
+for Run use
+
+```
+uvicorn app:app --reload --host 127.0.0.1 --port 9000
+```
